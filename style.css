@@ -10,6 +10,7 @@
     border: 1px solid black;
     position: relative;
     overflow: hidden;
+    Margin:0 auto;
 }
 
 
@@ -23,7 +24,7 @@
 
 @keyframes object-anim {
     from{
-        right: 0;
+        right: -80;
     }
 
     to{
