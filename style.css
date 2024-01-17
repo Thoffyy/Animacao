@@ -18,4 +18,17 @@
     bottom: 0;
     width: 80px;
     right: 50px;
+    animation: object-anim 2s infinite;
 }
+
+@keyframes object-anim {
+    from{
+        right: 0;
+    }
+
+    to{
+        right: 100%;
+    }
+
+}
+
